@@ -1,0 +1,8 @@
+public class Main {
+    public static void main(String[] args) {
+     double   r = 3.0;
+     double pi = 3.14;
+     double area = r * r * pi;
+     System.out.printf("A area do circulo e %.2f ", area);
+    }
+}
