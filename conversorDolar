@@ -1,0 +1,9 @@
+public class Main {
+    public static void main(String[] args) {
+     Double contacaoDolar = 5.30;
+     double valorReais = 300
+     
+     double valorDolares= valorReais / contacaoDolar;
+     System.out.println("o valor em dolares é $U %.2f ") + valorDolares
+  }
+}
