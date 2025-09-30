@@ -1,5 +1,4 @@
 public class Main {
-    public class Main {
     public static void main(String[] args) {
      double contacaoDolar = 5.30;
      double valorReais = 260;
