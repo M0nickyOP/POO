@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Funcionario
+comment1.params=nome\ documento
+comment1.target=Funcionario(java.lang.String,\ java.lang.String)
+comment2.params=nome
+comment2.target=void\ setNome(java.lang.String)
+comment3.params=documento
+comment3.target=void\ setDocumento(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getNome()
+comment5.params=
+comment5.target=java.lang.String\ getDocumento()
+comment6.params=
+comment6.target=double\ calcularPagamento()
+numComments=7

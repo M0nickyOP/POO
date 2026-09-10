@@ -1,26 +1,26 @@
-public class FuncionarioHorista{
+public class FuncionarioHorista extends Funcionario{
     private double valorHora;
-    private double horasTrabalhadas;
+    private double  horasTrabalhadas;
     
-    public FuncionarioHorista(double valorHora, double horasTrabalhadas) throws DadoInvalidoException {
+    public FuncionarioHorista (String nome, String documento, double valorHora, double horasTrabalhadas) throws DadoInvalidoException{
         super(nome, documento);
         setValorHora(valorHora);
-        sethorasTrabalhadas(horasTrabalhadas);
+        setHorasTrabalhadas(horasTrabalhadas);
     }
-    private void setValorHora(double valorHora) throws DadoInvalidoException {
+    private void setValorHora(double valorHora)throws DadoInvalidoException{
         if(valorHora <= 0){
-            throws DadoInvalidoException("Nenhum valor registrado");
+            throw new DadoInvalidoException ("O valor da hora não pode ser negativa!");
         }
         this.valorHora = valorHora;
     }
-    private void sethorasTrabalhadas(double horasTrabalhadas)throws DadoInvalidoException{
-        if(horasTrabalhadas < 0){
-            throws DadoInvalidoException("Nenhuma hora trabalhada registrada");
+    private void setHorasTrabalhadas(double horasTrabalhadas) throws DadoInvalidoException {
+        if (horasTrabalhadas < 0){
+            throw new DadoInvalidoException("A hora deve ser maior que 0!");
         }
-        this.horasTrabalhadas = horasTrabalhadas;
     }
-    @Override 
-    public double CalcularPagamento(){
-        return this.valorHora * this.horasTrabalhadas;
+    
+    @Override   
+    public double calcularPagamento(){
+        return valorHora * horasTrabalhadas;
     }
 }

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=VideoDigital
+comment1.params=titulo\ tamanhoMB\ duracaoMin
+comment1.target=VideoDigital(java.lang.String,\ double,\ int)
+comment2.params=
+comment2.target=int\ getDuracaoMin()
+comment3.params=duracaoMin
+comment3.target=void\ setDuracaoMin(int)
+comment4.params=
+comment4.target=java.lang.String\ getDescricao()
+numComments=5

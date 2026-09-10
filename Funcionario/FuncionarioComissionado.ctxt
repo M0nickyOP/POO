@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=FuncionarioComissionado
+comment1.params=nome\ documento\ vendasBrutas\ percentualComissao
+comment1.target=FuncionarioComissionado(java.lang.String,\ java.lang.String,\ double,\ double)
+comment2.params=vendasBrutas
+comment2.target=void\ setVendasBrutas(double)
+comment3.params=percentualComissao
+comment3.target=void\ setPercentualComissao(double)
+comment4.params=
+comment4.target=double\ calcularPagamento()
+numComments=5

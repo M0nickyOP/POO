@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=AudioDigital
+comment1.params=titulo\ tamanhoMB\ qualidadeKbps
+comment1.target=AudioDigital(java.lang.String,\ double,\ int)
+comment2.params=
+comment2.target=int\ getQualidadeKbps()
+comment3.params=qualidadeKbps
+comment3.target=void\ setQualidadeKbps(int)
+comment4.params=
+comment4.target=java.lang.String\ getDescricao()
+numComments=5

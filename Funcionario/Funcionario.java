@@ -1,33 +1,28 @@
-abstract class Funcionario{
+public abstract class Funcionario{
     private String nome;
-    private String documento; 
+    private String documento;
     
     public Funcionario(String nome, String documento) throws DadoInvalidoException{
-    setNome(nome);
-    setDocumento(documento);
+        setNome(nome);
+        setDocumento(documento);
     }
-    private void setNome(String nome)throws DadoInvalidoException{
-    if(nome != null && !nome.isBlank()){
+    private void setNome(String nome) throws DadoInvalidoException {
+        if (nome == null || nome.trim() .isEmpty()){
+            throw new DadoInvalidoException("Nome Inválido");
+        }
         this.nome = nome;
-    }else{
-        throw new IllegalArgumentException("Nome Inválido");
     }
-}
-    private void setDocumento(String documento)
-                                throws DadoInvalidoException{
-        if(documento != null && !documento.isBlank()){
+    private void setDocumento(String documento) throws DadoInvalidoException{
+        if(documento == null || nome.trim() .isEmpty()){
+            throw new DadoInvalidoException("Documento Inválido");
+        }
         this.documento = documento;
-    }else{
-        throw new IllegalArgumentException("Documento Inválido");
     }
+    public String getNome(){
+        return nome;
+    }
+    public String getDocumento(){
+        return documento;
+    }
+    public abstract double calcularPagamento();
 }
-    public final String getNome(){
-        return this.nome;
-    }
-    public final String getDocumento(){
-        return this.documento;
-    }
-    public abstract Double calcularSalario();
-}
-        
-    

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=ItemDigital
+comment1.params=titulo\ tamanhoMB
+comment1.target=ItemDigital(java.lang.String,\ double)
+comment2.params=
+comment2.target=java.lang.String\ getTitulo()
+comment3.params=titulo
+comment3.target=void\ setTitulo(java.lang.String)
+comment4.params=
+comment4.target=double\ getTamanhoMB()
+comment5.params=tamanhoMB
+comment5.target=void\ setTamanhoMB(double)
+comment6.params=
+comment6.target=java.lang.String\ getDescricao()
+numComments=7

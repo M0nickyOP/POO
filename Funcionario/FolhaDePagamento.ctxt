@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=FolhaDePagamento
+comment1.params=funcionarios
+comment1.target=double\ calcularTotal(java.util.List)
+numComments=2

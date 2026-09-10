@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=FuncionarioHorista
+comment1.params=nome\ documento\ valorHora\ horasTrabalhadas
+comment1.target=FuncionarioHorista(java.lang.String,\ java.lang.String,\ double,\ double)
+comment2.params=valorHora
+comment2.target=void\ setValorHora(double)
+comment3.params=horasTrabalhadas
+comment3.target=void\ setHorasTrabalhadas(double)
+comment4.params=
+comment4.target=double\ calcularPagamento()
+numComments=5

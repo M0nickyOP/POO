@@ -1,5 +1,5 @@
 public class DadoInvalidoException extends Exception{
-    DadoInvalidoException(String msg){
-        super(msg);
+    public DadoInvalidoException(String mensagem){
+        super(mensagem);
     }
 }

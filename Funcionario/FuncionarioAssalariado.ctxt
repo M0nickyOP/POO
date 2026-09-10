@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=FuncionarioAssalariado
+comment1.params=nome\ documento\ salarioMensal
+comment1.target=FuncionarioAssalariado(java.lang.String,\ java.lang.String,\ double)
+comment2.params=salarioMensal
+comment2.target=void\ setSalarioMensal(double)
+comment3.params=
+comment3.target=double\ calcularPagamento()
+numComments=4
