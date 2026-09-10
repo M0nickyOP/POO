@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Arquivo
+comment1.params=nome\ tamanhoBytes
+comment1.target=Arquivo(java.lang.String,\ long)
+comment2.params=tamanhoBytes
+comment2.target=void\ setTamanhoBytes(long)
+comment3.params=
+comment3.target=long\ getTamanho()
+numComments=4

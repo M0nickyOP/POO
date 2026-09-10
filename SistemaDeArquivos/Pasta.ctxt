@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Pasta
+comment1.params=nome
+comment1.target=Pasta(java.lang.String)
+comment2.params=n
+comment2.target=void\ adicionar(NodeSistema)
+comment3.params=
+comment3.target=long\ getTamanho()
+numComments=4
